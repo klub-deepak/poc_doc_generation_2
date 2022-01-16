@@ -1,0 +1,2817 @@
+{
+	"id": 0,
+	"name": "awesome-nestjs-boilerplate",
+	"kind": 1,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "common/abstract-client.service",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 2,
+					"name": "AbstractClientService",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"children": [
+						{
+							"id": 3,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "common/abstract-client.service.ts",
+									"line": 10,
+									"character": 2
+								}
+							],
+							"signatures": [
+								{
+									"id": 4,
+									"name": "new AbstractClientService",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 5,
+											"name": "ActionType",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6,
+											"name": "client",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "ClientProxy"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 2,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 5,
+												"name": "ActionType"
+											}
+										],
+										"name": "AbstractClientService"
+									}
+								}
+							]
+						},
+						{
+							"id": 7,
+							"name": "send",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true
+							},
+							"sources": [
+								{
+									"fileName": "common/abstract-client.service.ts",
+									"line": 12,
+									"character": 15
+								}
+							],
+							"signatures": [
+								{
+									"id": 8,
+									"name": "send",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 9,
+											"name": "R",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {}
+										},
+										{
+											"id": 10,
+											"name": "I",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 11,
+											"name": "pattern",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 5,
+												"name": "ActionType"
+											}
+										},
+										{
+											"id": 12,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 10,
+												"name": "I"
+											}
+										},
+										{
+											"id": 13,
+											"name": "returnDataOptions",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reflection",
+												"declaration": {
+													"id": 14,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 15,
+															"name": "class",
+															"kind": 1024,
+															"kindString": "Property",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "common/abstract-client.service.ts",
+																	"line": 15,
+																	"character": 25
+																}
+															],
+															"type": {
+																"type": "reference",
+																"typeArguments": [
+																	{
+																		"type": "reference",
+																		"id": 9,
+																		"name": "R"
+																	},
+																	{
+																		"type": "array",
+																		"elementType": {
+																			"type": "intrinsic",
+																			"name": "undefined"
+																		}
+																	}
+																],
+																"name": "Constructor"
+															}
+														},
+														{
+															"id": 16,
+															"name": "isPage",
+															"kind": 1024,
+															"kindString": "Property",
+															"flags": {},
+															"sources": [
+																{
+																	"fileName": "common/abstract-client.service.ts",
+																	"line": 15,
+																	"character": 48
+																}
+															],
+															"type": {
+																"type": "literal",
+																"value": true
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Properties",
+															"kind": 1024,
+															"children": [
+																15,
+																16
+															]
+														}
+													]
+												}
+											}
+										},
+										{
+											"id": 17,
+											"name": "isType",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "literal",
+												"value": false
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 90,
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 9,
+														"name": "R"
+													}
+												],
+												"name": "PageDto"
+											}
+										],
+										"name": "Promise"
+									}
+								},
+								{
+									"id": 18,
+									"name": "send",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 19,
+											"name": "R",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {}
+										},
+										{
+											"id": 20,
+											"name": "I",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 21,
+											"name": "pattern",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 5,
+												"name": "ActionType"
+											}
+										},
+										{
+											"id": 22,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 20,
+												"name": "I"
+											}
+										},
+										{
+											"id": 23,
+											"name": "returnDataOptions",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 24,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 25,
+																	"name": "class",
+																	"kind": 1024,
+																	"kindString": "Property",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "common/abstract-client.service.ts",
+																			"line": 23,
+																			"character": 10
+																		}
+																	],
+																	"type": {
+																		"type": "reference",
+																		"typeArguments": [
+																			{
+																				"type": "reference",
+																				"id": 19,
+																				"name": "R"
+																			},
+																			{
+																				"type": "array",
+																				"elementType": {
+																					"type": "intrinsic",
+																					"name": "undefined"
+																				}
+																			}
+																		],
+																		"name": "Constructor"
+																	}
+																},
+																{
+																	"id": 26,
+																	"name": "isPage",
+																	"kind": 1024,
+																	"kindString": "Property",
+																	"flags": {
+																		"isOptional": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "common/abstract-client.service.ts",
+																			"line": 23,
+																			"character": 33
+																		}
+																	],
+																	"type": {
+																		"type": "literal",
+																		"value": false
+																	}
+																}
+															],
+															"groups": [
+																{
+																	"title": "Properties",
+																	"kind": 1024,
+																	"children": [
+																		25,
+																		26
+																	]
+																}
+															]
+														}
+													},
+													{
+														"type": "reflection",
+														"declaration": {
+															"id": 27,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {},
+															"children": [
+																{
+																	"id": 28,
+																	"name": "isPage",
+																	"kind": 1024,
+																	"kindString": "Property",
+																	"flags": {
+																		"isOptional": true
+																	},
+																	"sources": [
+																		{
+																			"fileName": "common/abstract-client.service.ts",
+																			"line": 24,
+																			"character": 10
+																		}
+																	],
+																	"type": {
+																		"type": "literal",
+																		"value": false
+																	}
+																},
+																{
+																	"id": 29,
+																	"name": "isType",
+																	"kind": 1024,
+																	"kindString": "Property",
+																	"flags": {},
+																	"sources": [
+																		{
+																			"fileName": "common/abstract-client.service.ts",
+																			"line": 24,
+																			"character": 26
+																		}
+																	],
+																	"type": {
+																		"type": "literal",
+																		"value": true
+																	}
+																}
+															],
+															"groups": [
+																{
+																	"title": "Properties",
+																	"kind": 1024,
+																	"children": [
+																		28,
+																		29
+																	]
+																}
+															]
+														}
+													}
+												]
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 19,
+												"name": "R"
+											}
+										],
+										"name": "Promise"
+									}
+								},
+								{
+									"id": 30,
+									"name": "send",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 31,
+											"name": "R",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {}
+										},
+										{
+											"id": 32,
+											"name": "I",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 33,
+											"name": "pattern",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 5,
+												"name": "ActionType"
+											}
+										},
+										{
+											"id": 34,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 32,
+												"name": "I"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "void"
+											}
+										],
+										"name": "Promise"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								3
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								7
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "common/abstract-client.service.ts",
+							"line": 9,
+							"character": 13
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 35,
+							"name": "ActionType",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						2
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "common/abstract-client.service.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 36,
+			"name": "common/abstract.entity",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 46,
+					"name": "AbstractEntity",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isAbstract": true
+					},
+					"children": [
+						{
+							"id": 47,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 48,
+									"name": "new AbstractEntity",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 49,
+											"name": "DTO",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 61,
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 49,
+														"name": "DTO"
+													}
+												],
+												"name": "AbstractDto"
+											},
+											"default": {
+												"type": "reference",
+												"id": 61,
+												"name": "AbstractDto"
+											}
+										},
+										{
+											"id": 50,
+											"name": "O",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {},
+											"default": {
+												"type": "intrinsic",
+												"name": "never"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 46,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 49,
+												"name": "DTO"
+											},
+											{
+												"type": "reference",
+												"id": 50,
+												"name": "O"
+											}
+										],
+										"name": "AbstractEntity"
+									}
+								}
+							]
+						},
+						{
+							"id": 52,
+							"name": "createdAt",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"decorators": [
+								{
+									"name": "CreateDateColumn",
+									"type": {
+										"type": "reference",
+										"name": "CreateDateColumn"
+									},
+									"arguments": {
+										"options": "{\n    type: 'timestamp',\n  }"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/abstract.entity.ts",
+									"line": 37,
+									"character": 2
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Date"
+							},
+							"implementationOf": {
+								"type": "reference",
+								"id": 39,
+								"name": "IAbstractEntity.createdAt"
+							}
+						},
+						{
+							"id": 54,
+							"name": "dtoClass",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPrivate": true
+							},
+							"sources": [
+								{
+									"fileName": "common/abstract.entity.ts",
+									"line": 44,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"id": 49,
+										"name": "DTO"
+									},
+									{
+										"type": "tuple",
+										"elements": [
+											{
+												"type": "reference",
+												"id": 46,
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 61,
+														"name": "AbstractDto"
+													},
+													{
+														"type": "intrinsic",
+														"name": "never"
+													}
+												],
+												"name": "AbstractEntity"
+											},
+											{
+												"type": "optional",
+												"elementType": {
+													"type": "reference",
+													"id": 50,
+													"name": "O"
+												}
+											}
+										]
+									}
+								],
+								"name": "Constructor"
+							}
+						},
+						{
+							"id": 51,
+							"name": "id",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"decorators": [
+								{
+									"name": "PrimaryGeneratedColumn",
+									"type": {
+										"type": "reference",
+										"name": "PrimaryGeneratedColumn"
+									},
+									"arguments": {
+										"strategy": "'uuid'"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/abstract.entity.ts",
+									"line": 32,
+									"character": 2
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							},
+							"implementationOf": {
+								"type": "reference",
+								"id": 38,
+								"name": "IAbstractEntity.id"
+							}
+						},
+						{
+							"id": 53,
+							"name": "updatedAt",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"decorators": [
+								{
+									"name": "UpdateDateColumn",
+									"type": {
+										"type": "reference",
+										"name": "UpdateDateColumn"
+									},
+									"arguments": {
+										"options": "{\n    type: 'timestamp',\n  }"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/abstract.entity.ts",
+									"line": 42,
+									"character": 2
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Date"
+							},
+							"implementationOf": {
+								"type": "reference",
+								"id": 40,
+								"name": "IAbstractEntity.updatedAt"
+							}
+						},
+						{
+							"id": 55,
+							"name": "toDto",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "common/abstract.entity.ts",
+									"line": 46,
+									"character": 2
+								}
+							],
+							"signatures": [
+								{
+									"id": 56,
+									"name": "toDto",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 57,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 50,
+												"name": "O"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 49,
+										"name": "DTO"
+									},
+									"implementationOf": {
+										"type": "reference",
+										"id": 42,
+										"name": "IAbstractEntity.toDto"
+									}
+								}
+							],
+							"implementationOf": {
+								"type": "reference",
+								"id": 41,
+								"name": "IAbstractEntity.toDto"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								47
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								52,
+								54,
+								51,
+								53
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								55
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "common/abstract.entity.ts",
+							"line": 26,
+							"character": 22
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 58,
+							"name": "DTO",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"id": 61,
+								"name": "AbstractDto"
+							},
+							"default": {
+								"type": "reference",
+								"id": 61,
+								"name": "AbstractDto"
+							}
+						},
+						{
+							"id": 59,
+							"name": "O",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {},
+							"default": {
+								"type": "intrinsic",
+								"name": "never"
+							}
+						}
+					],
+					"implementedTypes": [
+						{
+							"type": "reference",
+							"id": 37,
+							"typeArguments": [
+								{
+									"type": "reference",
+									"id": 49,
+									"name": "DTO"
+								},
+								{
+									"type": "reference",
+									"id": 50,
+									"name": "O"
+								}
+							],
+							"name": "IAbstractEntity"
+						}
+					]
+				},
+				{
+					"id": 37,
+					"name": "IAbstractEntity",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {},
+					"comment": {
+						"shortText": "Abstract Entity",
+						"tags": [
+							{
+								"tag": "author",
+								"text": "Narek Hakobyan <narek.hakobyan.07@gmail.com>\n"
+							},
+							{
+								"tag": "description",
+								"text": "This class is an abstract class for all entities.\nIt's experimental and recommended using it only in microservice architecture,\notherwise just delete and use your own entity.\n"
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 39,
+							"name": "createdAt",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "common/abstract.entity.ts",
+									"line": 20,
+									"character": 2
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Date"
+							}
+						},
+						{
+							"id": 38,
+							"name": "id",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "common/abstract.entity.ts",
+									"line": 19,
+									"character": 2
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 40,
+							"name": "updatedAt",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "common/abstract.entity.ts",
+									"line": 21,
+									"character": 2
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Date"
+							}
+						},
+						{
+							"id": 41,
+							"name": "toDto",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 42,
+									"name": "toDto",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 43,
+											"name": "options",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isOptional": true
+											},
+											"type": {
+												"type": "reference",
+												"id": 45,
+												"name": "O"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 44,
+										"name": "DTO"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								39,
+								38,
+								40
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								41
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "common/abstract.entity.ts",
+							"line": 18,
+							"character": 17
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 44,
+							"name": "DTO",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {},
+							"type": {
+								"type": "reference",
+								"id": 61,
+								"name": "AbstractDto"
+							}
+						},
+						{
+							"id": 45,
+							"name": "O",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {},
+							"default": {
+								"type": "intrinsic",
+								"name": "never"
+							}
+						}
+					],
+					"implementedBy": [
+						{
+							"type": "reference",
+							"id": 46,
+							"name": "AbstractEntity"
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						46
+					]
+				},
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						37
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "common/abstract.entity.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 60,
+			"name": "common/dto/abstract.dto",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 61,
+					"name": "AbstractDto",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"children": [
+						{
+							"id": 62,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "common/dto/abstract.dto.ts",
+									"line": 15,
+									"character": 2
+								}
+							],
+							"signatures": [
+								{
+									"id": 63,
+									"name": "new AbstractDto",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 64,
+											"name": "entity",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 46,
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 61,
+														"name": "AbstractDto"
+													},
+													{
+														"type": "intrinsic",
+														"name": "never"
+													}
+												],
+												"name": "AbstractEntity"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 61,
+										"name": "AbstractDto"
+									}
+								}
+							]
+						},
+						{
+							"id": 66,
+							"name": "createdAt",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"decorators": [
+								{
+									"name": "ApiProperty",
+									"type": {
+										"type": "reference",
+										"name": "ApiProperty"
+									},
+									"arguments": {}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/abstract.dto.ts",
+									"line": 10,
+									"character": 2
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Date"
+							}
+						},
+						{
+							"id": 65,
+							"name": "id",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"decorators": [
+								{
+									"name": "ApiProperty",
+									"type": {
+										"type": "reference",
+										"name": "ApiProperty"
+									},
+									"arguments": {}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/abstract.dto.ts",
+									"line": 7,
+									"character": 2
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 67,
+							"name": "updatedAt",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {},
+							"decorators": [
+								{
+									"name": "ApiProperty",
+									"type": {
+										"type": "reference",
+										"name": "ApiProperty"
+									},
+									"arguments": {}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/abstract.dto.ts",
+									"line": 13,
+									"character": 2
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "Date"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								62
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								66,
+								65,
+								67
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "common/dto/abstract.dto.ts",
+							"line": 5,
+							"character": 13
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						61
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "common/dto/abstract.dto.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 68,
+			"name": "common/dto/page-meta.dto",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 69,
+					"name": "PageMetaDto",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"children": [
+						{
+							"id": 70,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "common/dto/page-meta.dto.ts",
+									"line": 29,
+									"character": 2
+								}
+							],
+							"signatures": [
+								{
+									"id": 71,
+									"name": "new PageMetaDto",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"parameters": [
+										{
+											"id": 72,
+											"name": "__namedParameters",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"name": "IPageMetaDtoParameters"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 69,
+										"name": "PageMetaDto"
+									}
+								}
+							]
+						},
+						{
+							"id": 78,
+							"name": "hasNextPage",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"decorators": [
+								{
+									"name": "ApiProperty",
+									"type": {
+										"type": "reference",
+										"name": "ApiProperty"
+									},
+									"arguments": {}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/page-meta.dto.ts",
+									"line": 27,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 77,
+							"name": "hasPreviousPage",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"decorators": [
+								{
+									"name": "ApiProperty",
+									"type": {
+										"type": "reference",
+										"name": "ApiProperty"
+									},
+									"arguments": {}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/page-meta.dto.ts",
+									"line": 24,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 75,
+							"name": "itemCount",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"decorators": [
+								{
+									"name": "ApiProperty",
+									"type": {
+										"type": "reference",
+										"name": "ApiProperty"
+									},
+									"arguments": {}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/page-meta.dto.ts",
+									"line": 18,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 73,
+							"name": "page",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"decorators": [
+								{
+									"name": "ApiProperty",
+									"type": {
+										"type": "reference",
+										"name": "ApiProperty"
+									},
+									"arguments": {}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/page-meta.dto.ts",
+									"line": 12,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 76,
+							"name": "pageCount",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"decorators": [
+								{
+									"name": "ApiProperty",
+									"type": {
+										"type": "reference",
+										"name": "ApiProperty"
+									},
+									"arguments": {}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/page-meta.dto.ts",
+									"line": 21,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 74,
+							"name": "take",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"decorators": [
+								{
+									"name": "ApiProperty",
+									"type": {
+										"type": "reference",
+										"name": "ApiProperty"
+									},
+									"arguments": {}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/page-meta.dto.ts",
+									"line": 15,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								70
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								78,
+								77,
+								75,
+								73,
+								76,
+								74
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "common/dto/page-meta.dto.ts",
+							"line": 10,
+							"character": 13
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						69
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "common/dto/page-meta.dto.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 79,
+			"name": "common/dto/page-options.dto",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 80,
+					"name": "PageOptionsDto",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"children": [
+						{
+							"id": 81,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"signatures": [
+								{
+									"id": 82,
+									"name": "new PageOptionsDto",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 80,
+										"name": "PageOptionsDto"
+									}
+								}
+							]
+						},
+						{
+							"id": 83,
+							"name": "order",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"decorators": [
+								{
+									"name": "EnumFieldOptional",
+									"type": {
+										"type": "reference",
+										"name": "EnumFieldOptional"
+									},
+									"arguments": {
+										"getEnum": "() => Order",
+										"options": "{\n    default: Order.ASC,\n  }"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/page-options.dto.ts",
+									"line": 12,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 124,
+								"name": "Order"
+							},
+							"defaultValue": "Order.ASC"
+						},
+						{
+							"id": 84,
+							"name": "page",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"decorators": [
+								{
+									"name": "NumberFieldOptional",
+									"type": {
+										"type": "reference",
+										"name": "NumberFieldOptional"
+									},
+									"arguments": {
+										"options": "{\n    minimum: 1,\n    default: 1,\n    int: true,\n  }"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/page-options.dto.ts",
+									"line": 19,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "1"
+						},
+						{
+							"id": 88,
+							"name": "q",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isOptional": true,
+								"isReadonly": true
+							},
+							"decorators": [
+								{
+									"name": "StringFieldOptional",
+									"type": {
+										"type": "reference",
+										"name": "StringFieldOptional"
+									},
+									"arguments": {}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/page-options.dto.ts",
+									"line": 34,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						},
+						{
+							"id": 85,
+							"name": "take",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"decorators": [
+								{
+									"name": "NumberFieldOptional",
+									"type": {
+										"type": "reference",
+										"name": "NumberFieldOptional"
+									},
+									"arguments": {
+										"options": "{\n    minimum: 1,\n    maximum: 50,\n    default: 10,\n    int: true,\n  }"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/page-options.dto.ts",
+									"line": 27,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"defaultValue": "10"
+						},
+						{
+							"id": 86,
+							"name": "skip",
+							"kind": 262144,
+							"kindString": "Accessor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "common/dto/page-options.dto.ts",
+									"line": 29,
+									"character": 6
+								}
+							],
+							"getSignature": [
+								{
+									"id": 87,
+									"name": "skip",
+									"kind": 524288,
+									"kindString": "Get signature",
+									"flags": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							]
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								81
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								83,
+								84,
+								88,
+								85
+							]
+						},
+						{
+							"title": "Accessors",
+							"kind": 262144,
+							"children": [
+								86
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "common/dto/page-options.dto.ts",
+							"line": 8,
+							"character": 13
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						80
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "common/dto/page-options.dto.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 89,
+			"name": "common/dto/page.dto",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 90,
+					"name": "PageDto",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {},
+					"children": [
+						{
+							"id": 91,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "common/dto/page.dto.ts",
+									"line": 12,
+									"character": 2
+								}
+							],
+							"signatures": [
+								{
+									"id": 92,
+									"name": "new PageDto",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {},
+									"typeParameter": [
+										{
+											"id": 93,
+											"name": "T",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {}
+										}
+									],
+									"parameters": [
+										{
+											"id": 94,
+											"name": "data",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "array",
+												"elementType": {
+													"type": "reference",
+													"id": 93,
+													"name": "T"
+												}
+											}
+										},
+										{
+											"id": 95,
+											"name": "meta",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {},
+											"type": {
+												"type": "reference",
+												"id": 69,
+												"name": "PageMetaDto"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 90,
+										"typeArguments": [
+											{
+												"type": "reference",
+												"id": 93,
+												"name": "T"
+											}
+										],
+										"name": "PageDto"
+									}
+								}
+							]
+						},
+						{
+							"id": 96,
+							"name": "data",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"decorators": [
+								{
+									"name": "ApiProperty",
+									"type": {
+										"type": "reference",
+										"name": "ApiProperty"
+									},
+									"arguments": {
+										"options": "{ isArray: true }"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/page.dto.ts",
+									"line": 7,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "array",
+								"elementType": {
+									"type": "reference",
+									"id": 93,
+									"name": "T"
+								}
+							}
+						},
+						{
+							"id": 97,
+							"name": "meta",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isReadonly": true
+							},
+							"decorators": [
+								{
+									"name": "ApiProperty",
+									"type": {
+										"type": "reference",
+										"name": "ApiProperty"
+									},
+									"arguments": {}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "common/dto/page.dto.ts",
+									"line": 10,
+									"character": 11
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 69,
+								"name": "PageMetaDto"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								91
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								96,
+								97
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "common/dto/page.dto.ts",
+							"line": 5,
+							"character": 13
+						}
+					],
+					"typeParameter": [
+						{
+							"id": 98,
+							"name": "T",
+							"kind": 131072,
+							"kindString": "Type parameter",
+							"flags": {}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Classes",
+					"kind": 128,
+					"children": [
+						90
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "common/dto/page.dto.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 99,
+			"name": "common/utils",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 100,
+					"name": "generateHash",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "common/utils.ts",
+							"line": 10,
+							"character": 16
+						}
+					],
+					"signatures": [
+						{
+							"id": 101,
+							"name": "generateHash",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "generate hash from password or string",
+								"returns": "\n"
+							},
+							"parameters": [
+								{
+									"id": 102,
+									"name": "password",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {},
+									"type": {
+										"type": "intrinsic",
+										"name": "string"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					]
+				},
+				{
+					"id": 107,
+					"name": "getVariableName",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "common/utils.ts",
+							"line": 31,
+							"character": 16
+						}
+					],
+					"signatures": [
+						{
+							"id": 108,
+							"name": "getVariableName",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"typeParameter": [
+								{
+									"id": 109,
+									"name": "TResult",
+									"kind": 131072,
+									"kindString": "Type parameter",
+									"flags": {}
+								}
+							],
+							"parameters": [
+								{
+									"id": 110,
+									"name": "getVar",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 111,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {},
+											"signatures": [
+												{
+													"id": 112,
+													"name": "__type",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {},
+													"type": {
+														"type": "reference",
+														"id": 109,
+														"name": "TResult"
+													}
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "string"
+							}
+						}
+					]
+				},
+				{
+					"id": 103,
+					"name": "validateHash",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "common/utils.ts",
+							"line": 20,
+							"character": 16
+						}
+					],
+					"signatures": [
+						{
+							"id": 104,
+							"name": "validateHash",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "validate text with hash",
+								"returns": "\n"
+							},
+							"parameters": [
+								{
+									"id": 105,
+									"name": "password",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											}
+										],
+										"name": "Optional"
+									}
+								},
+								{
+									"id": 106,
+									"name": "hash",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {},
+									"type": {
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											}
+										],
+										"name": "Optional"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "intrinsic",
+										"name": "boolean"
+									}
+								],
+								"name": "Promise"
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						100,
+						107,
+						103
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "common/utils.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 117,
+			"name": "constants",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 137,
+					"name": "DeviceTypeEnum",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {},
+					"target": 114
+				},
+				{
+					"id": 138,
+					"name": "LanguageCodeEnum",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {},
+					"target": 119
+				},
+				{
+					"id": 134,
+					"name": "Order",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {},
+					"target": 124
+				},
+				{
+					"id": 135,
+					"name": "RoleType",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {},
+					"target": 128
+				},
+				{
+					"id": 136,
+					"name": "TokenType",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {},
+					"target": 132
+				},
+				{
+					"id": 139,
+					"name": "supportedLanguageCount",
+					"kind": 16777216,
+					"kindString": "Reference",
+					"flags": {},
+					"target": 122
+				}
+			],
+			"groups": [
+				{
+					"title": "References",
+					"kind": 16777216,
+					"children": [
+						137,
+						138,
+						134,
+						135,
+						136,
+						139
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "constants/index.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 113,
+			"name": "constants/device-type.enum",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 114,
+					"name": "DeviceTypeEnum",
+					"kind": 8,
+					"kindString": "Enumeration",
+					"flags": {},
+					"children": [
+						{
+							"id": 116,
+							"name": "ANDROID",
+							"kind": 16,
+							"kindString": "Enumeration member",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "constants/device-type.enum.ts",
+									"line": 3,
+									"character": 2
+								}
+							],
+							"defaultValue": "\"android\""
+						},
+						{
+							"id": 115,
+							"name": "IOS",
+							"kind": 16,
+							"kindString": "Enumeration member",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "constants/device-type.enum.ts",
+									"line": 2,
+									"character": 2
+								}
+							],
+							"defaultValue": "\"ios\""
+						}
+					],
+					"groups": [
+						{
+							"title": "Enumeration members",
+							"kind": 16,
+							"children": [
+								116,
+								115
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "constants/device-type.enum.ts",
+							"line": 1,
+							"character": 12
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Enumerations",
+					"kind": 8,
+					"children": [
+						114
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "constants/device-type.enum.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 118,
+			"name": "constants/language-code.enum",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 119,
+					"name": "LanguageCodeEnum",
+					"kind": 8,
+					"kindString": "Enumeration",
+					"flags": {},
+					"children": [
+						{
+							"id": 120,
+							"name": "EN",
+							"kind": 16,
+							"kindString": "Enumeration member",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "constants/language-code.enum.ts",
+									"line": 2,
+									"character": 2
+								}
+							],
+							"defaultValue": "\"EN\""
+						},
+						{
+							"id": 121,
+							"name": "RU",
+							"kind": 16,
+							"kindString": "Enumeration member",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "constants/language-code.enum.ts",
+									"line": 3,
+									"character": 2
+								}
+							],
+							"defaultValue": "\"RU\""
+						}
+					],
+					"groups": [
+						{
+							"title": "Enumeration members",
+							"kind": 16,
+							"children": [
+								120,
+								121
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "constants/language-code.enum.ts",
+							"line": 1,
+							"character": 12
+						}
+					]
+				},
+				{
+					"id": 122,
+					"name": "supportedLanguageCount",
+					"kind": 32,
+					"kindString": "Variable",
+					"flags": {},
+					"sources": [
+						{
+							"fileName": "constants/language-code.enum.ts",
+							"line": 6,
+							"character": 13
+						}
+					],
+					"type": {
+						"type": "intrinsic",
+						"name": "number"
+					},
+					"defaultValue": "..."
+				}
+			],
+			"groups": [
+				{
+					"title": "Enumerations",
+					"kind": 8,
+					"children": [
+						119
+					]
+				},
+				{
+					"title": "Variables",
+					"kind": 32,
+					"children": [
+						122
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "constants/language-code.enum.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 123,
+			"name": "constants/order",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 124,
+					"name": "Order",
+					"kind": 8,
+					"kindString": "Enumeration",
+					"flags": {},
+					"children": [
+						{
+							"id": 125,
+							"name": "ASC",
+							"kind": 16,
+							"kindString": "Enumeration member",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "constants/order.ts",
+									"line": 2,
+									"character": 2
+								}
+							],
+							"defaultValue": "\"ASC\""
+						},
+						{
+							"id": 126,
+							"name": "DESC",
+							"kind": 16,
+							"kindString": "Enumeration member",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "constants/order.ts",
+									"line": 3,
+									"character": 2
+								}
+							],
+							"defaultValue": "\"DESC\""
+						}
+					],
+					"groups": [
+						{
+							"title": "Enumeration members",
+							"kind": 16,
+							"children": [
+								125,
+								126
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "constants/order.ts",
+							"line": 1,
+							"character": 12
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Enumerations",
+					"kind": 8,
+					"children": [
+						124
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "constants/order.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 127,
+			"name": "constants/role-type",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 128,
+					"name": "RoleType",
+					"kind": 8,
+					"kindString": "Enumeration",
+					"flags": {},
+					"children": [
+						{
+							"id": 130,
+							"name": "ADMIN",
+							"kind": 16,
+							"kindString": "Enumeration member",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "constants/role-type.ts",
+									"line": 3,
+									"character": 2
+								}
+							],
+							"defaultValue": "\"ADMIN\""
+						},
+						{
+							"id": 129,
+							"name": "USER",
+							"kind": 16,
+							"kindString": "Enumeration member",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "constants/role-type.ts",
+									"line": 2,
+									"character": 2
+								}
+							],
+							"defaultValue": "\"USER\""
+						}
+					],
+					"groups": [
+						{
+							"title": "Enumeration members",
+							"kind": 16,
+							"children": [
+								130,
+								129
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "constants/role-type.ts",
+							"line": 1,
+							"character": 12
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Enumerations",
+					"kind": 8,
+					"children": [
+						128
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "constants/role-type.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 131,
+			"name": "constants/token-type",
+			"kind": 2,
+			"kindString": "Module",
+			"flags": {},
+			"children": [
+				{
+					"id": 132,
+					"name": "TokenType",
+					"kind": 8,
+					"kindString": "Enumeration",
+					"flags": {},
+					"children": [
+						{
+							"id": 133,
+							"name": "ACCESS_TOKEN",
+							"kind": 16,
+							"kindString": "Enumeration member",
+							"flags": {},
+							"sources": [
+								{
+									"fileName": "constants/token-type.ts",
+									"line": 2,
+									"character": 2
+								}
+							],
+							"defaultValue": "\"ACCESS_TOKEN\""
+						}
+					],
+					"groups": [
+						{
+							"title": "Enumeration members",
+							"kind": 16,
+							"children": [
+								133
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "constants/token-type.ts",
+							"line": 1,
+							"character": 12
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Enumerations",
+					"kind": 8,
+					"children": [
+						132
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "constants/token-type.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"kind": 2,
+			"children": [
+				1,
+				36,
+				60,
+				68,
+				79,
+				89,
+				99,
+				117,
+				113,
+				118,
+				123,
+				127,
+				131
+			]
+		}
+	]
+}
